@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Calculate Your age in Seconds, Minutes, Hours and Days!</h2>
+        <center>
+            <input placeholder="Enter your age" type="text" id="age"> <button class="btn btn-danger"
+                onclick="calculateMyAge()">Submit</button> </center>
+        <center>
+            <div class="result-block mt-5">
+                <table>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                        <th>Minutes</th>
+                        <th>Seconds</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p id="days"></p>
+                        </td>
+                        <td>
+                            <p id="hours"></p>
+                        </td>
+                        <td>
+                            <p id="minutes"></p>
+                        </td>
+                        <td>
+                            <p id="seconds"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
